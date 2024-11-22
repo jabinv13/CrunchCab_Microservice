@@ -10,3 +10,14 @@
 <p>Here is the link for all the Repos (Due to high chagre of aws the system is not able test now)</p>
 
 [https://github.com/saurabhnative/create-frontend-readme](https://github.com/saurabhnative/create-frontend-readme)
+
+<div class="tech-stack">
+    <h2>🛠 Tech Stack</h2>
+    <ul>
+      <li><strong>Frontend:</strong> React.js, Redux, Axios</li>
+      <li><strong>Backend:</strong> Node.js, Express.js</li>
+      <li><strong>Database:</strong> MongoDB</li>
+      <li><strong>DevOps:</strong> Docker, Kubernetes</li>
+      <li><strong>Message Queue:</strong> RabbitMQ</li>
+    </ul>
+  </div>
