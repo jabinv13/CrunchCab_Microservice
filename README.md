@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Crunch cab</h1>
+<h1 align="center" color="red id="title">Crunch cab</h1>
 
 <p align="center"><img src="https://i.postimg.cc/NFRrZr8q/Screenshot-2024-11-21-201716.jpg" alt="project-image"></p>
 
