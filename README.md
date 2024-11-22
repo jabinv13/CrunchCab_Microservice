@@ -58,10 +58,10 @@ graph TD
         Kafka
     end
     
-    Auth -.-> RabbitMQ
-    Products -.-> RabbitMQ
-    Orders -.-> RabbitMQ
-    Payments -.-> RabbitMQ
+    
+    Products -.-> Kafka
+    Orders -.-> Kafka
+    Payments -.-> Kafka
 ```
 
 ## 💾 Database Architecture
