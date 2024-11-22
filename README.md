@@ -7,9 +7,45 @@
 ## 📋 Overview
 A modern, scalable microservices application built with Node.js and React. The project implements a distributed system architecture with independent services for authentication, product management, orders, and payments.
 
-## 📊 Service Status
-### ArgoCD Dashboard Overview
-![ArgoCD Dashboard](https://streamable.com/punaai)
+## 🎥 Service Demo
+https://github.com/yourusername/project-name/assets/videos/demo.mp4
+
+<div align="center">
+  <video width="100%" controls>
+    <source src="demo/services-overview.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+### Active Services Overview
+```bash
+# Current Running Services
+✅ Frontend Service      : http://localhost:3000
+✅ Auth Service         : http://localhost:4000
+✅ Product Service      : http://localhost:4001
+✅ Order Service        : http://localhost:4002
+✅ Payment Service      : http://localhost:4003
+✅ API Gateway         : http://localhost:8080
+```
+
+### Service Health Monitor
+```mermaid
+graph TD
+    A[API Gateway] --> B[Auth Service]
+    A --> C[Product Service]
+    A --> D[Order Service]
+    A --> E[Payment Service]
+    B --> F[MongoDB]
+    C --> F
+    D --> F
+    E --> F
+    style A fill:#85C1E9
+    style B fill:#82E0AA
+    style C fill:#82E0AA
+    style D fill:#82E0AA
+    style E fill:#82E0AA
+    style F fill:#F8C471
+```
 <details>
 <summary>View Service Details</summary>
 
