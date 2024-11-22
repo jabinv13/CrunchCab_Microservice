@@ -9,7 +9,7 @@ A modern, scalable microservices architecture with independent databases for eac
 
 ## 🎥 Service Demonstrations
 ### System Architecture Overview
-https://github.com/yourusername/project-name/assets/videos/architecture-overview.mp4
+https://streamable.com/punaai
 
 <details>
 <summary>View Individual Service Videos</summary>
