@@ -13,35 +13,6 @@ A modern, scalable microservices architecture with independent databases for eac
   <img src="https://i.postimg.cc/4yyzM3LX/argo.jpg" title="hover text">
 </p>
 
-
-<details>
-<summary>View Individual Service Videos</summary>
-
-### Authentication Service
-https://github.com/yourusername/project-name/assets/videos/auth-service-demo.mp4
-- Separate MongoDB instance for user data
-- JWT authentication flow
-- Role-based access control
-
-### Product Service
-https://github.com/yourusername/project-name/assets/videos/product-service-demo.mp4
-- Dedicated PostgreSQL database
-- Real-time inventory updates
-- Category management
-
-### Order Service
-https://github.com/yourusername/project-name/assets/videos/order-service-demo.mp4
-- MongoDB instance for order processing
-- Order status tracking
-- Integration with payment service
-
-### Payment Service
-https://github.com/yourusername/project-name/assets/videos/payment-service-demo.mp4
-- Separate PostgreSQL for transaction records
-- Payment gateway integration
-- Secure payment processing
-</details>
-
 ## 🏗️ Architecture
 ```mermaid
 graph TD
