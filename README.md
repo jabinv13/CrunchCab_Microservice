@@ -62,6 +62,7 @@ graph TD
     Products -.-> Kafka
     Orders -.-> Kafka
     Payments -.-> Kafka
+    Notification -.-> Kafka
 ```
 
 ## 💾 Database Architecture
