@@ -7,6 +7,97 @@
 ## 📋 Overview
 A modern, scalable microservices application built with Node.js and React. The project implements a distributed system architecture with independent services for authentication, product management, orders, and payments.
 
+## 📊 Service Status
+### ArgoCD Dashboard Overview
+![ArgoCD Dashboard](path/to/argocd-dashboard.png)
+<details>
+<summary>View Service Details</summary>
+
+|
+ Service 
+|
+ Status 
+|
+ Health 
+|
+|
+---------
+|
+--------
+|
+---------
+|
+|
+ Frontend 
+|
+!
+[
+Frontend Status
+](
+path/to/status-badge.svg
+)
+|
+ 🟢 
+|
+|
+ Auth Service 
+|
+!
+[
+Auth Status
+](
+path/to/status-badge.svg
+)
+|
+ 🟢 
+|
+|
+ Product Service 
+|
+!
+[
+Product Status
+](
+path/to/status-badge.svg
+)
+|
+ 🟢 
+|
+|
+ Order Service 
+|
+!
+[
+Order Status
+](
+path/to/status-badge.svg
+)
+|
+ 🟢 
+|
+|
+ Payment Service 
+|
+!
+[
+Payment Status
+](
+path/to/status-badge.svg
+)
+|
+ 🟢 
+|
+
+### Service Deployments
+![Service Deployments](path/to/deployments.png)
+*Real-time view of service deployments and health status*
+
+### Resource Utilization
+![Resource Usage](path/to/resources.png)
+*Kubernetes cluster resource utilization*
+
+</details>
+
 ## 🏗️ Architecture
 ```
 ├── Frontend (React)
@@ -38,9 +129,32 @@ A modern, scalable microservices application built with Node.js and React. The p
 - **Frontend:** React.js, Redux, Axios
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **DevOps:** Docker, Kubernetes
+- **DevOps:** Docker, Kubernetes, ArgoCD
 - **Message Broker:** RabbitMQ
 - **Gateway:** Nginx
+
+## 💻 Service Screenshots
+
+<details>
+<summary>Frontend Dashboard</summary>
+
+![Frontend Dashboard](path/to/frontend.png)
+*Main user interface showing product catalog*
+</details>
+
+<details>
+<summary>Admin Panel</summary>
+
+![Admin Panel](path/to/admin.png)
+*Administrative interface for managing services*
+</details>
+
+<details>
+<summary>Monitoring Dashboard</summary>
+
+![Monitoring](path/to/monitoring.png)
+*Grafana dashboard showing service metrics*
+</details>
 
 ## 🚀 Quick Start
 
@@ -76,6 +190,7 @@ A modern, scalable microservices application built with Node.js and React. The p
    - Frontend: http://localhost:3000
    - API Gateway: http://localhost:8080
    - Swagger Docs: http://localhost:8080/api-docs
+   - ArgoCD UI: http://localhost:8081
 
 ## 📚 API Documentation
 - Authentication: `/api/auth`
@@ -102,6 +217,9 @@ docker-compose build
 
 # Deploy to production
 docker-compose -f docker-compose.prod.yml up -d
+
+# Access ArgoCD
+kubectl port-forward svc/argocd-server -n argocd 8081:443
 ```
 
 ## 🤝 Contributing
