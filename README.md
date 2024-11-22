@@ -9,7 +9,9 @@ A modern, scalable microservices architecture with independent databases for eac
 
 ## 🎥 Service Demonstrations
 ### System Architecture Overview
-[Watch Video on Streamable](https://streamable.com/punaai)
+<p align="center">
+  <img src="https://i.postimg.cc/4yyzM3LX/argo.jpg" width="350" title="hover text">
+</p>
 
 
 <details>
