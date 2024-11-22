@@ -80,7 +80,6 @@ graph TD
   <img src="https://i.postimg.cc/NFRrZr8q/Screenshot-2024-11-21-201716.jpg" title="hover text">
   <img src="https://i.postimg.cc/fRCYwXGM/Screenshot-2024-11-21-172149.jpg" title="hover text">
   <img src="https://i.postimg.cc/wBbJNzxP/Screenshot-2024-11-21-173436.jpg" title="hover text">
-  <img src="https://i.postimg.cc/fRCYwXGM/Screenshot-2024-11-21-172149.jpg" title="hover text">
   <img src="https://i.postimg.cc/zBbhSQVf/Screenshot-2024-11-21-173527.jpg">
   <img src="https://i.postimg.cc/4dD9819Q/Screenshot-2024-11-21-173616.jpg" title="hover text">
   <img src="https://i.postimg.cc/VLjjV24r/Screenshot-2024-11-21-150319.jpg" title="hover text">
