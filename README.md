@@ -9,7 +9,7 @@ A modern, scalable microservices application built with Node.js and React. The p
 
 ## 📊 Service Status
 ### ArgoCD Dashboard Overview
-![ArgoCD Dashboard](path/to/argocd-dashboard.png)
+![ArgoCD Dashboard](https://streamable.com/punaai)
 <details>
 <summary>View Service Details</summary>
 
