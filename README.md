@@ -44,17 +44,18 @@ https://github.com/yourusername/project-name/assets/videos/payment-service-demo.
 graph TD
     Client[Client Application] --> Gateway[API Gateway]
     Gateway --> Auth[Auth Service]
-    Gateway --> Products[Product Service]
-    Gateway --> Orders[Order Service]
+    Gateway --> Products[Catalog-Service]
+    Gateway --> Orders[Order-Service]
     Gateway --> Payments[Payment Service]
+    Gateway --> Notification[Notification-service]
     
-    Auth --> AuthDB[(Auth DB - MongoDB)]
-    Products --> ProductDB[(Product DB - PostgreSQL)]
+    Auth --> AuthDB[(Auth DB - PostgreSQL)]
+    Products --> ProductDB[(Product DB - MongoDB)]
     Orders --> OrderDB[(Order DB - MongoDB)]
-    Payments --> PaymentDB[(Payment DB - PostgreSQL)]
+    Payments --> PaymentDB[(Payment DB - MongoDB)]
     
     subgraph Message Queue
-        RabbitMQ
+        Kafka
     end
     
     Auth -.-> RabbitMQ
@@ -67,10 +68,10 @@ graph TD
 
 | Service | Database Type | Purpose | Scaling Strategy |
 |---------|--------------|---------|------------------|
-| Auth | MongoDB | User profiles, credentials | Sharding |
-| Products | PostgreSQL | Product catalog, inventory | Read replicas |
+| Auth | PostgreSQL | User profiles, credentials | Sharding |
+| Products | MongoDB | Product catalog, inventory | Read replicas |
 | Orders | MongoDB | Order processing, history | Sharding |
-| Payments | PostgreSQL | Transaction records | Read replicas |
+| Payments | MongoDB | Transaction records | Read replicas |
 
 ## ⚡ Key Features
 - 🔐 Secure Authentication & Authorization
@@ -88,7 +89,7 @@ graph TD
   - MongoDB (Auth & Orders)
   - PostgreSQL (Products & Payments)
 - **DevOps:** Docker, Kubernetes
-- **Message Broker:** RabbitMQ
+- **Message Broker:** Kafka
 - **Gateway:** Nginx
 
 ## 🚀 Quick Start
