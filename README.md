@@ -67,11 +67,12 @@ graph TD
 - **Frontend:** React.js, Redux, Axios
 - **Backend:** Node.js, Express.js
 - **Databases:** 
-  - MongoDB (Auth & Orders)
-  - PostgreSQL (Products & Payments)
-- **DevOps:** Docker, Kubernetes
+  - MongoDB (catalog & Orders)
+  - PostgreSQL (Auth service)
+- **DevOps:** Docker, Kubernetes,Aws
 - **Message Broker:** Kafka
 - **Gateway:** Nginx
+- **CI/CD:** Gitops,Argocd
 
 ## 🚀 Screenshots 
 
