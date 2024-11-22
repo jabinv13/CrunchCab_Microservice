@@ -76,8 +76,9 @@ graph TD
 ## 🚀 Screenshots 
 
 <p align="center">
-  <img src="https://i.postimg.cc/4yyzM3LX/argo.jpg" title="hover text">
+  
   <img src="https://i.postimg.cc/NFRrZr8q/Screenshot-2024-11-21-201716.jpg" title="hover text">
+  <img src="https://i.postimg.cc/fRCYwXGM/Screenshot-2024-11-21-172149.jpg" title="hover text">
   <img src="https://i.postimg.cc/G2HFg2Sd/Pizza.png" title="hover text">
   <img src="https://i.postimg.cc/fRCYwXGM/Screenshot-2024-11-21-172149.jpg" title="hover text">
   <img src="https://i.postimg.cc/zBbhSQVf/Screenshot-2024-11-21-173527.jpg">
