@@ -8,7 +8,7 @@
 A modern, scalable microservices architecture with independent databases for each service, ensuring complete data isolation and service autonomy.
 
 ## 🎥 Service Demonstrations
-### System Architecture Overview
+### Example of a service and how scaling works in k8s
 <p align="center">
   <img src="https://i.postimg.cc/4yyzM3LX/argo.jpg" title="hover text">
 </p>
