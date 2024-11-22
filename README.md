@@ -29,3 +29,15 @@
       <li><strong>Message Queue:</strong> RabbitMQ</li>
     </ul>
   </div>
+
+  <h1 align="center" id="title">Crunch cab</h1>
+
+<p align="center"><img src="https://i.postimg.cc/NFRrZr8q/Screenshot-2024-11-21-201716.jpg" alt="project-image"></p>
+
+<h2>Project Screenshots:</h2>
+
+<img src="https://i.postimg.cc/4yyzM3LX/argo.jpg" alt="project-screenshot" width="fu" height="400/">
+
+<img src="https://i.postimg.cc/R0xLF4FT/Screenshot-2024-11-21-201748.jpg" alt="project-screenshot" width="f" height="400/">
+
+<img src="https://i.postimg.cc/G2HFg2Sd/Pizza.png" alt="project-screenshot" width="f" height="400/">
