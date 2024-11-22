@@ -7,6 +7,17 @@
 ## 📋 Overview
 A modern, scalable microservices architecture with independent databases for each service, ensuring complete data isolation and service autonomy.
 
+## Service Repositories
+
+* **Frontend Admin:** [https://github.com/jabinv13/mernstack-c-admin-ui]
+* **Frontend Client:** [https://github.com/jabinv13/mernstack-c-client-ui]
+* **Backend Catalog:** [https://github.com/jabinv13/mernstack-c-catalog-service]
+* **Backend Auth:** [https://github.com/jabinv13/mernstack-c-auth-service]
+* **Backend Order:** [https://github.com/jabinv13/mernstack-c-order-service]
+* **Backend Notification:** [https://github.com/jabinv13/mernstack-c-notificationservice]
+* **Backend Websocket:** [https://github.com/jabinv13/mernstack-c-websocketservice]
+
+
 ## 🎥 Service Demonstrations
 ### Example of a service and how scaling works in k8s
 <p align="center">
