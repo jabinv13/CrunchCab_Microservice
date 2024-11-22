@@ -44,7 +44,7 @@ https://github.com/yourusername/project-name/assets/videos/payment-service-demo.
 ```mermaid
 graph TD
     Client[Client Application] --> Gateway[API Gateway]
-    Admin UI[Admin Application] --> Gateway[API Gateway]
+    AdminUI[Admin Application] --> Gateway[API Gateway]
     Gateway --> Auth[Auth Service]
     Gateway --> Products[Catalog-Service]
     Gateway --> Orders[Order-Service]
