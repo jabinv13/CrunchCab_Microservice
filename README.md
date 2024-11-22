@@ -50,7 +50,7 @@ graph TD
     Gateway --> Orders[Order-Service]
     Gateway --> Payments[Payment Service]
     Gateway --> Notification[Notification-service]
-    WenSocket[Web socket]
+    WenSocket[Web socket] --> Client[Client Application] 
     Auth --> AuthDB[(Auth DB - PostgreSQL)]
     Products --> ProductDB[(Product DB - MongoDB)]
     Orders --> OrderDB[(Order DB - MongoDB)]
