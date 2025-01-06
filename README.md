@@ -23,36 +23,9 @@ A modern, scalable microservices architecture with independent databases for eac
 </p>
 
 ## 🏗️ Architecture
-```mermaid
-graph TD
-    Client[Client Application] --> Gateway[API Gateway]
-    AdminUI[Admin Application] --> Gateway[API Gateway]
-    Gateway --> Auth[Auth Service]
-    Gateway --> Products[Catalog-Service]
-    Gateway --> Orders[Order-Service]
-    Gateway --> Payments[Payment Service]
-    Gateway --> Notification[Notification-service]
-    WenSocket[Web socket] --> Client[Client Application]
-    WenSocket[Web socket] --> AdminUI[Admin Application]
-    WenSocket[Web socket] --> Products[Catalog-Service]
-    Products[Catalog-Service] --> WenSocket[Web socket]
-    WenSocket[Web socket] -->  Orders[Order-Service]
-     Orders[Order-Service] --> WenSocket[Web socket] 
-    Auth --> AuthDB[(Auth DB - PostgreSQL)]
-    Products --> ProductDB[(Product DB - MongoDB)]
-    Orders --> OrderDB[(Order DB - MongoDB)]
-    Payments --> PaymentDB[(Payment DB - MongoDB)]
-    
-    subgraph Message Queue
-        Kafka
-    end
-    
-    
-    Products -.-> Kafka
-    Orders -.-> Kafka
-    Payments -.-> Kafka
-    Notification -.-> Kafka
-```
+<p align="center">
+  <img src="https://app.eraser.io/workspace/vK9tUhOmbDjRXJvKjMIF">
+</p>
 
 ## 💾 Database Architecture
 
