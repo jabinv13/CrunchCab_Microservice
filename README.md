@@ -24,7 +24,7 @@ A modern, scalable microservices architecture with independent databases for eac
 
 ## 🏗️ Architecture
 <p align="center">
-  <img src="https://app.eraser.io/workspace/vK9tUhOmbDjRXJvKjMIF">
+  <img src="https://drmfxjrkklqhzchznxdr.supabase.co/storage/v1/object/public/image/Screenshot%202025-01-06%20221816.jpg">
 </p>
 
 ## 💾 Database Architecture
